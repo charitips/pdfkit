@@ -48,7 +48,9 @@
     "rollup-plugin-cpy": "^2.0.1"
   },
   "dependencies": {
+    "@pdf-lib/upng": "^1.0.1",
     "crypto-js": "^4.2.0",
+    "fflate": "^0.8.2",
     "fontkit": "^1.8.1",
     "jpeg-exif": "^1.1.4",
     "linebreak": "^1.0.2",
