@@ -1,6 +1,6 @@
 {
-  "name": "pdfkit",
-  "description": "A PDF generation library for Node.js",
+  "name": "@charitips/pdfkit",
+  "description": "Fork of the PDF generation library PDFKit",
   "keywords": [
     "pdf",
     "pdf writer",
