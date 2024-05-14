@@ -51,6 +51,10 @@ export default [
       copy({
         files: ['lib/font/data/*.afm', 'lib/mixins/data/*.icc'],
         dest: 'js/data'
+      }),
+      copy({
+        files: ['lib/index.d.ts'],
+        dest: 'js'
       })
     ]
   },

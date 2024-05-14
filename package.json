@@ -9,7 +9,11 @@
     "document",
     "vector"
   ],
-  "version": "0.15.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "version": "0.15.1",
   "homepage": "http://pdfkit.org/",
   "author": {
     "name": "Devon Govett",
@@ -73,6 +77,7 @@
   },
   "main": "js/pdfkit.js",
   "module": "js/pdfkit.es.js",
+  "types": "js/index.d.ts",
   "browserify": {
     "transform": [
       "brfs"
